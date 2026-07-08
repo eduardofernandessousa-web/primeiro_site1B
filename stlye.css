@@ -1,23 +1,29 @@
-header {
+header { 
     background-color: #183C63;
-    color: #FFFFFF;
+    color: #FFFF;
     text-align: center;
-    max-width: 800px;
+    max-width: 800px; 
     margin: 0 auto;
+    padding: 16px; 
+}
+
+main { 
+    background-color: #FFFF;
+    color: #183C63; 
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 16px;
 }
 
-main {
-    background-color: #FFFFFF;
-    color: #183C63;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 16px;
-}
+    img {
+        width: 80px;
+        height: 80px;
+    }
 
-img {
+img{
     display: block;
-    width: 80px;
-    height: auto;
-    margin-bottom: 16px 
+    width: 250px;
+    margin: 0 auto;
+    border: 4px solid #090435;
+    height: 300px ;
 }
